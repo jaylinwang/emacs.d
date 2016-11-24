@@ -12,3 +12,4 @@
 (require 'init-smex)
 (require 'init-company)
 (require 'init-fonts)
+(require 'init-lua)
