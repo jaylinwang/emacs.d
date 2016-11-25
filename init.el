@@ -11,12 +11,17 @@
 (require 'init-company)
 (require 'init-fonts)
 
+(require 'init-project)
 (require 'init-linum)
 (require 'init-custom)
 (require 'init-themes)
 (require 'init-search)
 (require 'init-editing-utils)
+(require 'init-git)
+(require 'init-flycheck)
 
 ;; 语言支持
 (require 'init-lua)
 (require 'init-markdown)
+(require 'init-js)
+(require 'init-html)

@@ -16,4 +16,8 @@
 ;; y/n 替代 yes/no
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; 括号自动匹配
+(require-package 'autopair)
+(autopair-global-mode 1)
+
 (provide 'init-custom)
