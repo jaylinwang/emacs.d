@@ -13,6 +13,6 @@
 		  (message "eslintrc-path: %s" eslintrc-path)
 		  (setq flycheck-eslintrc eslintrc-path)))))
 
-(add-hook 'flycheck-mode-hook 'reset-eslintrc)
+(add-hook 'projectile-mode-hook 'reset-eslintrc)
 
 (provide 'init-flycheck)
