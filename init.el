@@ -25,3 +25,7 @@
 (require 'init-markdown)
 (require 'init-js)
 (require 'init-html)
+
+;; 用户自定义
+(require 'init-auto-mode)
+(require 'init-keymap-custom)

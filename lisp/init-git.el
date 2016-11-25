@@ -8,11 +8,6 @@
 (maybe-require-package 'git-timemachine)
 
 (require-package 'magit)
-(global-set-key (kbd "C-x g") 'magit-status)
-(global-set-key (kbd "C-x s") 'magit-stage)
-(global-set-key (kbd "C-x c") 'magit-commit)
-(global-set-key (kbd "C-x j") 'magit-pull)
-(global-set-key (kbd "C-x k") 'magit-push)
 
 ;; (require-package 'git-gutter)
 ;; (global-git-gutter-mode 1)

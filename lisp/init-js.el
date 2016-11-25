@@ -3,6 +3,5 @@
 ;;-----------------------------------------------------------
 
 (require-package 'js2-mode)
-(add-auto-mode 'js-mode "\\.js$")
 
 (provide 'init-js)
