@@ -21,4 +21,8 @@
 (when (eval-when-compile (version< "24.4" emacs-version))
     (electric-indent-mode 1))
 
+;; 跳转至定义
+(require-package 'dumb-jump)
+(dumb-jump-mode 1)
+
 (provide 'init-editing-utils)
