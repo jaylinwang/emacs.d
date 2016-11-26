@@ -10,7 +10,7 @@
 (global-set-key (kbd "C-x k") 'magit-push)
 
 ;; 搜索相关
-(global-set-key (kbd "C-x C-p") 'find-file-in-project)
+(global-set-key (kbd "C-x C-p") 'projectile-command-map)
 
 ;; 编辑相关
 (global-set-key (kbd "C-M-j") 'dumb-jump-go-other-window)

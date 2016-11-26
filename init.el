@@ -15,7 +15,6 @@
 (require 'init-linum)
 (require 'init-custom)
 (require 'init-themes)
-(require 'init-search)
 (require 'init-editing-utils)
 (require 'init-git)
 (require 'init-flycheck)
@@ -29,3 +28,5 @@
 ;; 用户自定义
 (require 'init-auto-mode)
 (require 'init-keymap-custom)
+
+(load-theme 'solarized-light t)

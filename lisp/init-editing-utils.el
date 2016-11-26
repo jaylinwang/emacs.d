@@ -25,4 +25,10 @@
 (require-package 'dumb-jump)
 (dumb-jump-mode 1)
 
+;; emmet配置
+(when (maybe-require-package 'emmet-mode)
+  (add-hook 'web-mode-hook 'emmet-mode)
+  (add-hook 'sgml-mode-hook 'emmet-mode)
+  (add-hook 'css-mode-hook  'emmet-mode))
+
 (provide 'init-editing-utils)
