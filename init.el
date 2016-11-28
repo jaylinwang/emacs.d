@@ -1,4 +1,4 @@
-1(defconst MIN_VERSION "24.4")
+(defconst MIN_VERSION "24.4")
 (when (version<= emacs-version MIN_VERSION)
   (error "your emacs is too old ~~,suggest version is after %s" MIN_VERSION))
 
