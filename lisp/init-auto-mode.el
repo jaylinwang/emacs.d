@@ -17,5 +17,7 @@
 (add-auto-mode 'markdown-mode "\\.md$")
 (add-auto-mode 'markdown-mode "\\.markdown$")
 
+;; vue
+(add-auto-mode 'vue-mode "\\.vue$")
 
 (provide 'init-auto-mode)

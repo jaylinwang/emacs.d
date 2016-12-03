@@ -30,6 +30,7 @@
 (require 'init-markdown)
 (require 'init-js)
 (require 'init-html)
+(require 'init-vue)
 
 ;; 用户自定义
 (require 'init-auto-mode)
