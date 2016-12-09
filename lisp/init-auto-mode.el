@@ -12,10 +12,13 @@
 (add-auto-mode 'web-mode "\\.as[cp]x\\'")
 (add-auto-mode 'web-mode "\\.erb\\'")
 (add-auto-mode 'web-mode "\\.djhtml\\'")
+(add-auto-mode 'web-mode "\\.hbs\\'")
 
 ;; markdown
 (add-auto-mode 'markdown-mode "\\.md$")
 (add-auto-mode 'markdown-mode "\\.markdown$")
+(add-auto-mode 'gfm-mode "\\.markdown$")
+(add-auto-mode 'gfm-mode "\\.md$")
 
 ;; vue
 (add-auto-mode 'vue-mode "\\.vue$")
