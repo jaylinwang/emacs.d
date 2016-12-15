@@ -31,6 +31,8 @@
 (require 'init-js)
 (require 'init-html)
 (require 'init-vue)
+(require 'init-css)
+(require 'init-beautify)
 
 ;; 用户自定义
 (require 'init-auto-mode)
