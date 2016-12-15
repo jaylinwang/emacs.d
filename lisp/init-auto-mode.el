@@ -23,4 +23,9 @@
 ;; vue
 (add-auto-mode 'vue-mode "\\.vue$")
 
+
+;; scss
+(add-auto-mode 'scss-mode "\\.scss$")
+(add-auto-mode 'scss-mode "\\.sass$")
+
 (provide 'init-auto-mode)
