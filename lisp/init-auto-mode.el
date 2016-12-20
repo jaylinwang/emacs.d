@@ -28,4 +28,7 @@
 (add-auto-mode 'scss-mode "\\.scss$")
 (add-auto-mode 'scss-mode "\\.sass$")
 
+;; yaml
+(add-auto-mode 'yaml-mode "\\.yml$")
+
 (provide 'init-auto-mode)

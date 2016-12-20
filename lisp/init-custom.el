@@ -5,9 +5,14 @@
 (show-paren-mode 1)
 
 ;; 设置缩进
-(setq indent-tabs-mode nil)
 (setq default-tab-width 4)
-(setq tab-width 4)
+(setq indent-tabs-mode nil)
+(setq-default js2-basic-offset 4
+	      tab-width 4
+	      indent-tabs-mode nil)
+(setq-default scss-basic-offset 4
+	      tab-width 4
+	      indent-tabs-mode nil)
 
 ;; 支持和外部程序拷贝
 (setq x-select-enable-clipboard t)

@@ -24,6 +24,7 @@
 (require 'init-editing-utils)
 (require 'init-git)
 (require 'init-flycheck)
+(require 'init-beautify)
 
 ;; 语言支持
 (require 'init-lua)
@@ -32,7 +33,7 @@
 (require 'init-html)
 (require 'init-vue)
 (require 'init-css)
-(require 'init-beautify)
+(require 'init-yaml)
 
 ;; 用户自定义
 (require 'init-auto-mode)
